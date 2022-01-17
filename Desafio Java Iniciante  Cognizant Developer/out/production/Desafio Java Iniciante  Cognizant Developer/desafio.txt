@@ -1,0 +1,50 @@
+Desafio 1
+Para dar conta de toda a fabricação dos presentes de Natal, por várias vezes os elfos precisam ficar até tarde trabalhando para que tudo possa ser terminado a tempo.
+
+Para melhor gerenciar seus cronogramas, os elfos estipularam quantos minutos são necessários para fabricar cada presente.
+
+Já está quase no final do expediente, e um dos elfos pediu sua ajuda.
+
+Faltam N minutos para a hora de ir embora, e restam dois presentes para o elfo Dobby fabricar. Ajude-o a descobrir se ele conseguirá fabricar os dois ainda hoje, ou se deve deixar o trabalho para amanhã.
+
+Entrada
+Cada caso de teste inicia com um inteiro N, indicando quantos minutos faltam para o final do expediente (2 <= N <= 100).
+
+Em seguida haverá dois inteiros A e B, indicando quantos minutos são necessários para fabricar os dois presentes que Dobby precisa fabricar (1 <= A, B <= 100).
+
+Saída
+Imprima uma linha, contendo a frase "Farei hoje!" caso seja possível fabricar os dois presentes antes do final do expediente, ou "Deixa para amanha!" caso contrário.
+
+
+Exemplos de Entrada	Exemplos de Saída
+20
+15 6
+
+Deixa para amanha!
+
+20
+10 10
+
+Farei hoje!
+
+Desafio 2
+
+Leia um número inteiro que representa um código de DDD para discagem interurbana. Em seguida, informe à qual cidade o DDD pertence, considerando a tabela abaixo:
+
+
+
+
+Se a entrada for qualquer outro DDD que não esteja presente na tabela acima, o programa deverá informar:
+DDD nao cadastrado
+
+Entrada
+A entrada consiste de um único valor inteiro.
+
+Saída
+Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima DDD nao cadastrado caso não existir DDD correspondente ao número digitado.
+
+
+Exemplo de Entrada	Exemplo de Saída
+11
+
+Sao Paulo
