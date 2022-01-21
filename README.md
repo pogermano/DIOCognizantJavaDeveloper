@@ -1,6 +1,6 @@
 
 <h1>
-# Bootcamp DIOCognizantJavaDeveloper
+ <strong>Bootcamp DIOCognizantJavaDeveloper</strong>
 </h1>
 
 <p>
